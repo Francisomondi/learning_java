@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("this the first line of code");
 
-        Scanner scan = new Scanner(System.in);
+        /*
+            Scanner scan = new Scanner(System.in);
         System.out.println("Kindly Input your age: ");
         int age = scan.nextInt();
         //System.out.println("your age is :" + age);
@@ -24,11 +25,16 @@ public class Main {
                 "  and you have " + timeLeft + " seconds to leave this place");
 
 
+         */
+
              int numbe1 = 34;
         int numb2 = 40;
 
-        int z = numb2 % numbe1;
-        System.out.println(z);
+        if (numb2<=30) {
+            System.out.println(numb2 + "is grater than 30");
+        }else{
+            System.out.println("number 2 is 40");
+        }
 
     }
 }
