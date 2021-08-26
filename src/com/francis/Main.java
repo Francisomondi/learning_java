@@ -30,7 +30,7 @@ public class Main {
              int numbe1 = 34;
         int numb2 = 60;
 
-        if ((numb2 >= 30) &&(numb2 <= 40)) {
+        if ((numb2 >= 30) &&(numbe1 <= 40)) {
             System.out.println("tis condition is true");
         }else{
             System.out.println("tis condition is false");
