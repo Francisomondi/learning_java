@@ -28,12 +28,12 @@ public class Main {
          */
 
              int numbe1 = 34;
-        int numb2 = 40;
+        int numb2 = 60;
 
-        if (numb2<=30) {
-            System.out.println(numb2 + "is grater than 30");
+        if ((numb2 >= 30) &&(numb2 <= 40)) {
+            System.out.println("tis condition is true");
         }else{
-            System.out.println("number 2 is 40");
+            System.out.println("tis condition is false");
         }
 
     }
