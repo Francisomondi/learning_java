@@ -27,7 +27,7 @@ public class Main {
              int numbe1 = 34;
         int numb2 = 40;
 
-        int z = numb2 + numbe1;
+        int z = numb2 % numbe1;
         System.out.println(z);
 
     }
