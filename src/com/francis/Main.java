@@ -25,7 +25,7 @@ public class Main {
                 "  and you have " + timeLeft + " seconds to leave this place");
 
 
-         */
+
 
              int numbe1 = 34;
         int numb2 = 60;
@@ -34,6 +34,19 @@ public class Main {
             System.out.println("tis condition is true");
         }else{
             System.out.println("tis condition is false");
+        }
+
+         */
+        int[] myArray = {
+                67,
+                6676,
+                696966,
+                6868686,
+                76
+        };
+        for (int index= 0; index< 5; index++){
+            System.out.println(myArray[index]);
+
         }
 
     }
